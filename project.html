@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados | Arthur Alves</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .voltar {
+            align-self: flex-start;
+            color: #4b0082;
+            text-decoration: underline;
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-direction: column; 
+            gap: 50px; 
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .gallery-item {
+            background-color: #050505;
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid #1a1a1a;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .gallery-item img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        h2 { 
+            color: #fff; 
+            margin-bottom: 30px; 
+            font-size: 2rem;
+            border-bottom: 2px solid #008000;
+            padding-bottom: 10px;
+        }
+
+        .titulo-curso {
+            color: #008000;
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin: 0;
+        }
+
+        .detalhes {
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="curriculo.html" class="voltar">← Voltar para o Currículo</a>
+
+    <h2>Meus Certificados</h2>
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <p class="titulo-curso">Crie um Site Simples usando HTML, CSS e JavaScript</p>
+            <p class="detalhes">Fundação Bradesco | Escola Virtual</p>
+            <img src="java.png" alt="Certificado HTML/CSS/JS">
+        </div>
+
+        <div class="gallery-item">
+            <p class="titulo-curso">Análise de Dados no Power BI</p>
+            <p class="detalhes">Fundação Bradesco | Escola Virtual</p>
+            <img src="power.png" alt="Certificado Power BI">
+        </div>
+
+        <div class="gallery-item">
+            <p class="titulo-curso">Excel na Prática </p>
+            <p class="detalhes">Fundação Bradesco | Escola Virtual </p>
+            <img src="excel.png" alt="Certificado Excel">
+        </div>
+
+        <div class="gallery-item">
+            <p class="titulo-curso">Atendimento ao Cliente </p>
+            <p class="detalhes">Fundação Bradesco | Escola Virtual </p>
+            <img src="atendi.png" alt="Certificado Atendimento">
+        </div>
+
+    </div>
+
+</body>
+</html>
